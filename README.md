@@ -10,3 +10,24 @@
 * 1:50-2:05 Pacific: BREAK
 * 2:05-4:00 Pacific: CLASS
 
+## Goals
+* develop a SOLID foundation in Python
+   * ...so that you can write code / read code / understand code
+* leverage AI
+   * ...so that you can write code / read code / understand code
+   * also to find bugs in code
+   * (note that you will need that solid foundation to know...
+      * what AI is telling you
+      * when AI is wrong)
+* understand best practices in Python
+* understand error messages
+* testing / debugging
+* data manipulation / visualization
+* Pandas / PySpark
+
+## Challenges
+* differing backgrounds
+* need to work in the cloud
+
+
+##
