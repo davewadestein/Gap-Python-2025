@@ -31,6 +31,7 @@
   * engineering
   * product manager
 * lots of material
+* using a web-based tool
 
 ## Capstone
 * will be done after class
