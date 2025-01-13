@@ -1,6 +1,10 @@
 # Gap-Python-2025
 ## How to reach me during (or after) class
 * dave@developintelligence.com
+
+## What we'll use to do our work
+* https://colab.research.google.com/
+  
 ## Schedule (tentative)
 * 8-9:30 Pacific: CLASS
 * 9:30-10 Pacific: LUNCH BREAK 1 (for Central/Eastern time zones)
@@ -38,3 +42,4 @@
 * you'll use internal Gap data
 * Gap folks will help
 * details forthcoming
+
