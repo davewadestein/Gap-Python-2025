@@ -1,7 +1,7 @@
 # Gap-Python-2025
 ## How to reach me during (or after) class
 * dave@developintelligence.com
-## Schedule
+## Schedule (tentative)
 * 8-9:30 Pacific: CLASS
 * 9:30-10 Pacific: LUNCH BREAK 1 (for Central/Eastern time zones)
 * 10-11:30 Pacific: CLASS
@@ -27,7 +27,13 @@
 
 ## Challenges
 * differing backgrounds
-* need to work in the cloud
+  * data science
+  * engineering
+  * product manager
+* lots of material
 
-
-##
+## Capstone
+* will be done after class
+* you'll use internal Gap data
+* Gap folks will help
+* details forthcoming
