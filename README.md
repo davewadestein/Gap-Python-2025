@@ -1,4 +1,9 @@
 # Gap-Python-2025
+
+## Tuesday 1-Question Polls
+* https://xoyondo.com/op/icc1ktb4cux2jnw
+* https://xoyondo.com/op/s5h64g5bmy7g5j5
+
 ## How to reach me during (or after) class
 * dave@developintelligence.com
 
