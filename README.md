@@ -1,8 +1,12 @@
 # Gap-Python-2025
 
+## Wednesday 1-Question Polls
+* https://xoyondo.com/op/5mh0jwebk1qjj79
+* https://xoyondo.com/op/jep40xwovbsiu1e
+
 ## Tuesday 1-Question Polls
-* https://xoyondo.com/op/icc1ktb4cux2jnw
-* https://xoyondo.com/op/s5h64g5bmy7g5j5
+<img width="250" alt="Screenshot 2025-01-15 at 8 47 20 AM" src="https://github.com/user-attachments/assets/ee1b2acf-76f0-4438-8b04-e97777e0a43f" />
+<img width="150" alt="Screenshot 2025-01-15 at 8 47 57 AM" src="https://github.com/user-attachments/assets/2b4dd525-9c20-43e7-91c0-2b91341019eb" />
 
 ## How to reach me during (or after) class
 * dave@developintelligence.com
