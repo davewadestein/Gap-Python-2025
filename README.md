@@ -2,6 +2,7 @@
 
 ## Thursday 1-Question Polls
 * https://xoyondo.com/op/vg1jvmj9ts3qv8d
+* https://xoyondo.com/op/tjck9w3k93umsts
 
 ## Wednesday 1-Question Polls
 <img width="130" alt="Screenshot..." src="https://github.com/user-attachments/assets/548c1b6e-40cc-4e7f-9f04-b891d3721d5a" />
