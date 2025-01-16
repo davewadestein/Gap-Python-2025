@@ -50,9 +50,70 @@
 * lots of material
 * using a web-based tool
 
-## Capstone
-* will be done after class
-* you'll use internal Gap data
-* Gap folks will help
-* details forthcoming
+## Capstone Sketch (for Data Science folks)
+* Data Loading & Exploration
+  * Load data from tables and get familiar with it
+  * Can start with basic SQL but shift to pyspark/functions
+  * Some visualization (built in databricks notebooks is most typical but not python)
+  * Some summary statistics
 
+* Data Cleaning and Feature Extraction
+  * Identify and perform cleaning on the data and extract relevant features
+  * While development in a notebook is fine, the end goal of this step is to write modular functions that perform these cleaning steps
+  * Think about modularizing by brand, market, channel, date ranges, and other relevant slices of the data
+  * Any functions/classes should ultimately be defined in a python script and imported into a notebook/script for use
+* Option 1: Data Analysis/Visualization
+  * Perform some analysis and/or visualization of the data in a reusable/extendable format
+  * Again, analysis and visualizations can be developed in notebook cells but should eventually be parametrized to be more reusable
+  * For example an analysis method could take in a dataframe, a date range, a target variable to plot/analyze
+* Option 2: Modeling
+  * Train a model on the data (train test split), perform basic hyperparameter tuning or model comparison with MLFlow and register the model (Unity Catalog)
+  * Create a Databricks workflow for (re)training the model and a workflow for inference (optionally add a schedule to the workflows)
+
+## Capstone Ideas
+* Here are some ideas for overall analysis/modeling goals. Some of the suggested parameterization can be added in at later steps when it becomes relevant (e.g. maybe start with a data extraction method that only takes brand, market, and a date range then later add in channel param, division as needed).
+
+1. Top-Selling Products (Analysis and Visualization)
+   * Objective: Identify the top-selling products in a dataset.
+   * Steps:
+     1. Find datasets for sales.
+     2. Explore the data, identify cleaning steps, and feature extraction.
+     3. Write methods for data cleaning and feature extraction (param by brand, date range, channel(s)).
+     4. Write method(s) to get the top N selling products in the data along with their sales (param by N, date range, channel(s), brand).
+Write a method to visualize the results. (Bonus: find the image data from the catalog and display product images as well)
+Parametrize a notebook (using dbutils.widgets) to perform the end-to-end analysis (load, clean, aggregate, and visualize) and create a workflow from this notebook.
+Run this notebook for multiple brands.
+What if we consider online purchases only? Retail only?
+Repeat this analysis for different time windows (top selling summer products, top selling holiday products, etc).
+What if we also include browsing data? What are the top viewed products? Top added to cart products? Are these different from top purchases?
+Bonus: What if we adjust for returns?
+Bonus: What if we wanted the top products for each division?
+Customer Segmentation (Clustering)
+
+Objective: Group customers based on purchasing behavior.
+Steps:
+Find datasets with customer purchase behavior (start with a single brand)
+Explore datasets, identify cleaning steps and feature extraction.
+Write modular methods to perform cleaning and data preparation in a python script (standardize the data!)
+Apply clustering (e.g K-means) to create 3–5 customer segments. (modularize by number of clusters!)
+Visualize clusters in 2D using PCA for dimensionality reduction (bonus: try 3D for fun).
+Analyze the clusters, what features are dominant? How would we describe the groups?
+Repeat the above steps split by retail and online purchases.
+Incorporate customer demographic data and repeat.
+What if we include data from multiple brands? Are there clusters for multi-brand customers? Clusters by brand?
+Customer Churn Prediction (Classification)
+
+Objective: Predict if a customer is likely to stop shopping (in the upcoming week/month/quarter) based on historical data.
+Steps:
+Identify tables needed to measure churn and other useful customer features.
+Split the data into training and test sets (by date)
+Explore datasets, identify cleaning steps, and feature extraction.
+Write modular methods to perform cleaning and data preparation (py script)
+Train a logistic regression or random forest classifier.
+Evaluate with accuracy, precision, and recall.
+Bonus: Perform hyperparameter tuning and compare models with MLFlow experiments.
+Examine feature importance.
+Register model with Databricks Unity Catalog
+Create a model inference notebook using the registered model.
+ 
+  
