@@ -71,49 +71,49 @@
   * Create a Databricks workflow for (re)training the model and a workflow for inference (optionally add a schedule to the workflows)
 
 ## Capstone Ideas
-* Here are some ideas for overall analysis/modeling goals. Some of the suggested parameterization can be added in at later steps when it becomes relevant (e.g. maybe start with a data extraction method that only takes brand, market, and a date range then later add in channel param, division as needed).
+* Here are some ideas for overall analysis/modeling 
+goals. Some of the suggested parameterization can be added in at later steps when it becomes relevant (e.g. maybe start with a data extraction method that only takes brand, market, and a date range then later add in channel param, division as needed).
 
-1. Top-Selling Products (Analysis and Visualization)
-   * Objective: Identify the top-selling products in a dataset.
-   * Steps:
-     1. Find datasets for sales.
-     2. Explore the data, identify cleaning steps, and feature extraction.
-     3. Write methods for data cleaning and feature extraction (param by brand, date range, channel(s)).
-     4. Write method(s) to get the top N selling products in the data along with their sales (param by N, date range, channel(s), brand).
-Write a method to visualize the results. (Bonus: find the image data from the catalog and display product images as well)
-Parametrize a notebook (using dbutils.widgets) to perform the end-to-end analysis (load, clean, aggregate, and visualize) and create a workflow from this notebook.
-Run this notebook for multiple brands.
-What if we consider online purchases only? Retail only?
-Repeat this analysis for different time windows (top selling summer products, top selling holiday products, etc).
-What if we also include browsing data? What are the top viewed products? Top added to cart products? Are these different from top purchases?
-Bonus: What if we adjust for returns?
-Bonus: What if we wanted the top products for each division?
-Customer Segmentation (Clustering)
+* Top-Selling Products (Analysis and Visualization)
 
-Objective: Group customers based on purchasing behavior.
-Steps:
-Find datasets with customer purchase behavior (start with a single brand)
-Explore datasets, identify cleaning steps and feature extraction.
-Write modular methods to perform cleaning and data preparation in a python script (standardize the data!)
-Apply clustering (e.g K-means) to create 3–5 customer segments. (modularize by number of clusters!)
-Visualize clusters in 2D using PCA for dimensionality reduction (bonus: try 3D for fun).
-Analyze the clusters, what features are dominant? How would we describe the groups?
-Repeat the above steps split by retail and online purchases.
-Incorporate customer demographic data and repeat.
-What if we include data from multiple brands? Are there clusters for multi-brand customers? Clusters by brand?
-Customer Churn Prediction (Classification)
+  * Objective: Identify the top-selling products in a dataset.
+  * Steps:
+    1. Find datasets for sales.
+    2. Explore the data, identify cleaning steps, and feature extraction.
+    3. Write methods for data cleaning and feature extraction (param by brand, date range, channel(s)).
+    4. Write method(s) to get the top N selling products in the data along with their sales (param by N, date range, channel(s), brand).
+    5. Write a method to visualize the results. (Bonus: find the image data from the catalog and display product images as well)
+    6. Parametrize a notebook (using dbutils.widgets) to perform the end-to-end analysis (load, clean, aggregate, and visualize) and create a workflow from this notebook.
+    7. Run this notebook for multiple brands.
+    8. What if we consider online purchases only? Retail only?
+    9. Repeat this analysis for different time windows (top selling summer products, top selling holiday products, etc).
+    10. What if we also include browsing data? What are the top viewed products? Top added to cart products? Are these different from top purchases?
+    11. Bonus: What if we adjust for returns?
+    12. Bonus: What if we wanted the top products for each division?
 
-Objective: Predict if a customer is likely to stop shopping (in the upcoming week/month/quarter) based on historical data.
-Steps:
-Identify tables needed to measure churn and other useful customer features.
-Split the data into training and test sets (by date)
-Explore datasets, identify cleaning steps, and feature extraction.
-Write modular methods to perform cleaning and data preparation (py script)
-Train a logistic regression or random forest classifier.
-Evaluate with accuracy, precision, and recall.
-Bonus: Perform hyperparameter tuning and compare models with MLFlow experiments.
-Examine feature importance.
-Register model with Databricks Unity Catalog
-Create a model inference notebook using the registered model.
- 
-  
+* Customer Segmentation (Clustering)
+  * Objective: Group customers based on purchasing behavior.
+  * Steps:
+    1. Find datasets with customer purchase behavior (start with a single brand)
+    2. Explore datasets, identify cleaning steps and feature extraction.
+    3. Write modular methods to perform cleaning and data preparation in a python script (standardize the data!)
+    4. Apply clustering (e.g K-means) to create 3–5 customer segments. (modularize by number of clusters!)
+    5. Visualize clusters in 2D using PCA for dimensionality reduction (bonus: try 3D for fun).
+    6. Analyze the clusters, what features are dominant? How would we describe the groups?
+    7. Repeat the above steps split by retail and online purchases.
+    8. Incorporate customer demographic data and repeat.
+    9. What if we include data from multiple brands? Are there clusters for multi-brand customers? Clusters by brand?
+
+* Customer Churn Prediction (Classification)
+  * Objective: Predict if a customer is likely to stop shopping (in the upcoming week/month/quarter) based on historical data.
+  * Steps:
+     1. Identify tables needed to measure churn and other useful customer features.
+     2. Split the data into training and test sets (by date)
+     3. Explore datasets, identify cleaning steps, and feature extraction.
+     4. Write modular methods to perform cleaning and data preparation (py script)
+     5. Train a logistic regression or random forest classifier.
+     6. Evaluate with accuracy, precision, and recall.
+     7. Bonus: Perform hyperparameter tuning and compare models with MLFlow experiments.
+     8. Examine feature importance.
+     9. Register model with Databricks Unity Catalog
+     10. Create a model inference notebook using the registered model.
