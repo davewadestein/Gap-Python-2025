@@ -1,7 +1,6 @@
 # Gap-Python-2025
 
 ## Thursday 1-Question Polls
-* https://xoyondo.com/op/2a1vcpj10q3p59q
 * https://xoyondo.com/op/vg1jvmj9ts3qv8d
 
 ## Wednesday 1-Question Polls
