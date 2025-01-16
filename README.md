@@ -1,12 +1,16 @@
 # Gap-Python-2025
 
+## Thursday 1-Question Polls
+* https://xoyondo.com/op/2a1vcpj10q3p59q
+* https://xoyondo.com/op/vg1jvmj9ts3qv8d
+
 ## Wednesday 1-Question Polls
-* https://xoyondo.com/op/5mh0jwebk1qjj79
-* https://xoyondo.com/op/jep40xwovbsiu1e
+<img width="130" alt="Screenshot..." src="https://github.com/user-attachments/assets/548c1b6e-40cc-4e7f-9f04-b891d3721d5a" />
+<img width="240" alt="Screenshot..." src="https://github.com/user-attachments/assets/3f71141f-dec0-4872-9bec-68b83955e0a1" />
 
 ## Tuesday 1-Question Polls
-<img width="250" alt="Screenshot 2025-01-15 at 8 47 20 AM" src="https://github.com/user-attachments/assets/ee1b2acf-76f0-4438-8b04-e97777e0a43f" />
-<img width="150" alt="Screenshot 2025-01-15 at 8 47 57 AM" src="https://github.com/user-attachments/assets/2b4dd525-9c20-43e7-91c0-2b91341019eb" />
+<img width="220" alt="Screenshot 2025-01-15 at 8 47 20 AM" src="https://github.com/user-attachments/assets/ee1b2acf-76f0-4438-8b04-e97777e0a43f" />
+<img width="130" alt="Screenshot 2025-01-15 at 8 47 57 AM" src="https://github.com/user-attachments/assets/2b4dd525-9c20-43e7-91c0-2b91341019eb" />
 
 ## How to reach me during (or after) class
 * dave@developintelligence.com
