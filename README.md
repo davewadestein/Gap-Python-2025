@@ -1,5 +1,8 @@
 # Gap-Python-2025
 
+## Course Evaluation
+* https://www.surveymonkey.com/r/X3HRHD3
+  
 ## Thursday 1-Question Polls
 * https://xoyondo.com/op/vg1jvmj9ts3qv8d
 * https://xoyondo.com/op/tjck9w3k93umsts
