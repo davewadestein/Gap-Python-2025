@@ -1,11 +1,13 @@
 # Gap-Python-2025
 
+* NOTE: At the end of class, I mentioned that <a href="https://github.com/davewadestein/Gap-Python-2025/blob/main/Demo/Demo_Titanic_Logistic_Regression.ipynb">Titanic Logistic Regression</a> was a different version of the Titanic Survivors notebook we looked at in class and mentioned it was supposed to include equivalent PySpark commands for a number of the Pandas cells. I have fixed that notebook, i.e., I have restored the missing PySpark commands.
+
 ## Course Evaluation
 * https://www.surveymonkey.com/r/X3HRHD3
   
 ## Thursday 1-Question Polls
-* https://xoyondo.com/op/vg1jvmj9ts3qv8d
-* https://xoyondo.com/op/tjck9w3k93umsts
+<img width="140" alt="Screenshot 2025-01-21 at 12 31 17 PM" src="https://github.com/user-attachments/assets/4de07868-6657-409a-8124-517ca160d644" />
+<img width="240" alt="Screenshot 2025-01-21 at 12 32 27 PM" src="https://github.com/user-attachments/assets/6f14e782-e549-4a9d-98f0-faa43ad54229" />
 
 ## Wednesday 1-Question Polls
 <img width="130" alt="Screenshot..." src="https://github.com/user-attachments/assets/548c1b6e-40cc-4e7f-9f04-b891d3721d5a" />
